@@ -25,6 +25,9 @@ const config: Config = {
           '2xl': '1400px',
         },
       },
+      fontFamily: {
+        'antic': ['Antic Didone', 'serif'],
+      }
     },
   },
   plugins: [],

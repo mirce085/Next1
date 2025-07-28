@@ -1,8 +1,9 @@
-import { Navbar } from "@/components/layout/navbar";
-
+import Hero from "@/components/pages/main/components/hero";
 
 export default function Home() {
   return (
-    <div className="container">main page</div>
+    <>
+      <Hero />
+    </>
   );
 }

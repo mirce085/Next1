@@ -18,7 +18,9 @@ export function Navbar() {
     <div className="bg-[#212121]">
       <div className="container flex justify-between m-auto py-[26px]">
         <div className="logo">
-          <Image src="/logo.png" alt="logo" width={100} height={100}/>
+          <Link href="/">
+            <Image src="/logo.png" alt="logo" width={100} height={100} />
+          </Link>
         </div>
         <NavigationMenu viewport={false}>
           <NavigationMenuList>
@@ -51,10 +53,12 @@ export function Navbar() {
           </NavigationMenuList>
         </NavigationMenu>
         <div className="flex gap-2">
-          <Button className="rounded-full bg-white hover:bg-accent cursor-pointer">
-            <Search className="text-black"/>
+          <Button className="rounded-full bg-white hover:bg-accent cursor-pointer w-[38px] h-[38px] flex items-center justify-center">
+            <Search className="text-black" />
           </Button>
-          <Button className=" bg-white hover:bg-accent text-black cursor-pointer">Button</Button>
+          <Button className=" bg-white hover:bg-accent text-black cursor-pointer rounded-sm">
+            Button
+          </Button>
         </div>
       </div>
     </div>
