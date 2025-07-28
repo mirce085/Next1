@@ -1,8 +1,8 @@
 "use client";
 
-import * as React from "react";
 import Link from "next/link";
 
+import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -10,15 +10,15 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
+import Image from "next/image";
 
 export function Navbar() {
   return (
     <div className="bg-[#212121]">
       <div className="container flex justify-between m-auto py-[26px]">
         <div className="logo">
-          <h1 className="text-2xl text-white">Raume</h1>
+          <Image src="/logo.png" alt="logo" width={100} height={100}/>
         </div>
         <NavigationMenu viewport={false}>
           <NavigationMenuList>

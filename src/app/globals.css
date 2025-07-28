@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+
 @import "tailwindcss";
 @import "tw-animate-css";
+
 
 @custom-variant dark (&:is(.dark *));
 
@@ -118,5 +121,27 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+.container {
+  @apply max-w-[1440px] mx-auto;
+}
+
+@media (max-width: 1024) {
+  .container {
+    @apply max-w-[996px] mx-auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    @apply max-w-[720px] mx-auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    @apply max-w-[540px] mx-auto;
   }
 }
