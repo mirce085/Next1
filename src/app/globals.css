@@ -129,7 +129,7 @@
   @apply max-w-[1440px] mx-auto;
 }
 
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
   .container {
     @apply max-w-[996px] mx-auto;
   }

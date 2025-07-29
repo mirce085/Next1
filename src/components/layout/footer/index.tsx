@@ -12,7 +12,7 @@ import { MdWhatsapp } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="mt-12">
+    <footer className="mt-[10rem]">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
           <div className="flex flex-col gap-[174px]">
