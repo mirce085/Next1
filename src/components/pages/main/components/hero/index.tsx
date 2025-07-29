@@ -21,7 +21,7 @@ export default function Hero() {
                         Smart Spaces.
                     </h2>
                     <button
-                        className="w-[46px] h-[46px] flex items-center justify-center self-end border-2 border-gray-800 rounded-full hover:cursor-pointer mb-[1rem]"
+                        className="w-[45px] h-[45px] flex items-center justify-center self-end border-2 border-gray-800 rounded-full hover:cursor-pointer mb-[1rem]"
                     >
                         <ArrowLeft/>
                     </button>
